@@ -1,0 +1,75 @@
+
+/* Layout.tsx */
+main {
+    width: 80%;
+    margin: auto auto 4vh auto;
+}
+h4 {
+    text-align: center;
+}
+
+
+/* Navbar.tsx */
+nav {
+    margin-bottom: 2%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    display: inline;
+    margin-right: 2rem;
+    list-style: none;
+}
+li * {
+    text-decoration: none;
+}
+.navlink {
+    font-size: 0.9rem !important;
+}
+
+
+/* Loading.tsx */
+.loading {
+    margin: 20vh auto auto auto;
+    width: 80%;
+    max-width: 1400px;
+}
+
+
+/* MUI Table */
+.mui-table {
+    width: 80%;
+    margin: 2vh auto 2vh auto;
+    max-width: 1400px;
+}
+.positive-change {
+    color: #1f791e;
+}
+.negative-change {
+    color: #a81e2e;
+}
+
+
+/* Formik */
+/* form components */
+.formik-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 1400px;
+    width: 80%;
+}
+/* components */
+.formik-component {
+    width: 100%;
+    margin: 1vh auto auto auto !important;
+}
+/* error */
+.formik-error {
+    margin-top: 0.6vh;
+    color: #f56565;
+}
